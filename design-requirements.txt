@@ -1,0 +1,6 @@
+incorporate some kinds of scripts with JavaScript
+    use something like a mouseover or click event
+        mouseover - change appearance of something
+        click -  toggle content between visible and hidden
+include CSS to make website look interesting
+choose a theme you would show other people

@@ -1,3 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 body {
-    background: blue;
+    background-color: bisque;
+    background-attachment: fixed;
+    font-family: 'Lato';
+
+}
+
+h1#page-title{
+    font-size: 2.5em;
+    text-align: center;
+    background-color: rgb(190, 180, 157);
+    width: max-content;
+    max-width: 80%;
+    inline-size: max-content;
+    overflow-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: auto;
+}
+
+.description-box{
+    width: 800px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin: auto;
+}
+
+.paragraph{
+    text-indent: 50px;
+    font-size: 1.0em;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+section#selection-box {
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 90%;
+    background-color: rgba(209, 188, 162, 0.555);
+}
+
+.selections{
+    float: left;
+    width: 20%;
+}
+
+h2 {
+    text-align: center;
 }

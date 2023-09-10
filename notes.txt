@@ -1,0 +1,44 @@
+Git Development Workflow:
+write a good commit history
+Ex:
+    Commit 1: "Initialize Repository"
+    Commit 2: "Add basic HTML, CSS and JavaScript files"
+    Commit 3: "Create initial HTML content"
+    Commit 4: "Add CSS rules"
+    Commit 5: "Fix syntax issue in HTML"
+    Commit 6: "Finish bio/about section"
+    Commit 7: "Add JS event listeners"
+    etc...
+    Commit 22: "Adjust styling for new HTML layout"
+    Commit 23: "Finish website"
+
+comment on important features
+    javascript: //
+    html & css /* */
+
+
+Content of website:
+    Comparison of earliest sites of civlization
+        gobekli tepe
+        stonehenge
+        mohenjo daro
+        ur
+        sumer
+    initially have a list of each civlization with a description of what the website is about
+    click on name or picture of different civlization and expand to show their description
+
+
+
+
+
+Initial Description:
+Human history on our planet started millions of years ago when the first apes stood on their hind legs and became bipedal. Scientists believe that humans split from their ancestors almost ten million years ago. However, modern humans, known Homo Sapiens, are said to have only emerged two hundred thousand years ago.
+Those first humans are believed to have exited Africa at different times, due to different circumstances. Today, evidence can be found all over the world of our ancestors' adventures. Still, we wonder how our world came to be the way it is today. Ancient humans travelled and settled as groups and we are still finding new archeological sites of their earlist settlements. 
+Modern civilizations grew out of these prehistoric settlements. We define a civilization as a complex society with structure, organization, and a system of communication. We can consider other elements as part of our modern understanding of civilization, like agriculture, religion, economics, etc. Some settlements we will look at will give us a better understand of how modern civilizations came to be.
+
+List of Different Archeological Sites:
+Göbekli Tepe
+Mesopotamia (Ur, Uruk, )
+
+
+
