@@ -2,18 +2,17 @@
 <html lang="en">
 
   <head>
-
       <link rel="stylesheet" href="style.css" />
       <title>The World's Oldest Civilizations</title>
     </head>
 
   <body>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
     <br>
     <h1 id="page-title">A Look at the Oldest Civilizations in Human History</h1>
-
-    <section id="default-description" class="description-box">
-      <br>
+    <br>
+    <section id="description" class="description-box">
+      
       <p class="paragraph"> Human history on our planet started millions of years ago when the first apes stood on their hind legs and became bipedal. Scientists believe that humans split from their ancestors almost ten million years ago. However, modern humans, known as <i>Homo Sapiens</i>, are said to have only emerged two hundred thousand years ago.</p>
       <p class="paragraph"> Those first humans are believed to have exited Africa at different times, due to different circumstances. Today, evidence can be found all over the world of our ancestors' adventures. Still, we wonder how our world came to be the way it is today. Ancient humans travelled and settled as groups and we are still finding new archeological sites of their earlist settlements.</p>
       <p class="paragraph"> Modern civilizations grew out of these prehistoric settlements. We define a civilization as a complex society with structure, organization, and a system of communication. We can consider other elements as part of our modern understanding of civilization, like agriculture, religion, economics, etc. Some settlements we will look at will give us a better understand of how modern civilizations came to be.</p>
@@ -22,18 +21,83 @@
     <br id="">
 
     <section id="selection-box">
-    <h2>Check out these archeological sites!</h2>
+    <h2>Check out these early civilizations!</h2>
 
-    <div class="selections">
-      <h3 class="boxes">Göbekli Tepe</h3>
+    <div class="selections" id="sel0">
+      <img 
+      src="./images/Göbekli_Tepe_full.jpg"
+      alt="The Ruins at Göbekli Tepe"
+      class="thumbnails">
+      <button class="buttons" onclick="displayDescription('b0')" id="b0">Göbekli Tepe</button>
+      <script>
+        const box = document.getElementById("sel0")
+        console.log(box);
+        box.addEventListener('mouseenter', function() { box.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered 0");});
+        box.addEventListener('mouseleave', function() { box.style.outline = "0px transparent rgb(0,0,0)"; console.log("unhovered 1")});
+      </script>
     </div>
 
-    <div class="selections">
-      <h3 class="boxes">Uruk</h3>
+    <div class="selections" id="sel1">
+      <img 
+      src="./images/uruk-full.jpeg"
+      alt="The Ruins of Uruk"
+      class="thumbnails">
+      <button class="buttons" onclick="displayDescription('b1')" id="b1">Uruk</button>
+      <script>
+        const box0 = document.getElementById("sel1")
+        console.log(box0);
+        box0.addEventListener('mouseenter', function() { box0.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
+        box0.addEventListener('mouseleave', function() { box0.style.outline = "0px transparent rgba(0,0,0,0)"});
+      </script>
+    </div>
+
+    <div class="selections" id="sel2">
+      <img 
+      src="./images/Mehrgarh_ruins.jpg"
+      alt="The Ruins of Mehrgarh"
+      class="thumbnails">
+      <button class="buttons" onclick="displayDescription('b2')" id="b2">Mehrgarh</button>
+      <script>
+        const box1 = document.getElementById("sel2")
+        console.log(box1);
+        box1.addEventListener('mouseenter', function() { box1.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
+        box1.addEventListener('mouseleave', function() { box1.style.outline = "0px transparent rgba(0,0,0,0)"});
+      </script>
+    </div>
+
+    <div class="selections" id="sel3">
+      <img 
+      src="./images/Tell_es-sultan.jpg"
+      alt="The Ruins of Tell es-Sultan"
+      class="thumbnails">
+      <button class="buttons" onclick="displayDescription('b3')" id="b3"> Tell es-Sultan</button>
+      <script>
+        const box2 = document.getElementById("sel3")
+        console.log(box2);
+        box2.addEventListener('mouseenter', function() { box2.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
+        box2.addEventListener('mouseleave', function() { box2.style.outline = "0px transparent rgba(0,0,0,0)"});
+      </script>
+    </div>
+    
+    <div class="selections" id="sel4">
+      <img 
+      src="./images/Teotihuacan.jpg"
+      alt="Pyramid of Teotihuacan"
+      class="thumbnails">
+      <button class="buttons" onclick="displayDescription('b4')" id="b4">Teotihuacan</button>
+      
+      <script>
+        const box3 = document.getElementById("sel4")
+        console.log(box3);
+        box3.addEventListener('mouseenter', function() { box3.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
+        box3.addEventListener('mouseleave', function() { box3.style.outline = "0px transparent rgba(0,0,0,0)"});
+      </script>
+
     </div>
 
     </section>
 
+    <button id="home-button" onclick="displayDescription('home')" >Home</button>
 
   </body>
 

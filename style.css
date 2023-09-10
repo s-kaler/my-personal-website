@@ -24,24 +24,22 @@ h1#page-title{
     margin: auto;
 }
 
-.description-box{
+#description{
     width: 800px;
     max-width: 80%;
     margin-left: 10%;
     margin: auto;
-}
-
-.paragraph{
     text-indent: 50px;
     font-size: 1.0em;
     text-align: left;
     overflow-wrap: break-word;
 }
 
+
 section#selection-box {
     margin-bottom: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     max-width: 90%;
     background-color: rgba(209, 188, 162, 0.555);
 }
@@ -49,8 +47,39 @@ section#selection-box {
 .selections{
     float: left;
     width: 20%;
+    text-align: center;
+    outline: 0px solid rgb(218, 165, 32);
 }
+/*
+.selections:hover{
+    border: 1px solid black;
+}
+*/
 
 h2 {
     text-align: center;
 }
+.thumbnails{
+    width: 95%;
+    height: 150px;
+    border: transparent;
+}
+
+.buttons{
+    background-color: white;
+    color: black;
+    border: 2px solid #745900;
+    font-family: "Lato";
+    font-size: 1.0em;
+}
+
+#home-button{
+    background-color: white;
+    color: black;
+    border: 2px solid #745900;
+    font-family: "Lato";
+    font-size: 1.25em;
+    display: flex;
+    margin: auto;
+}
+
