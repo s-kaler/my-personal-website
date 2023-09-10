@@ -32,20 +32,20 @@ h1#page-title{
 }
 
 h2#desc-header {
-    height: 0px;
-
+    height: 20px;
 }
 
 #description{
     width: 800px;
     max-width: 80%;
+    height: 300px;
     margin-left: 10%;
     margin: auto;
     text-indent: 50px;
     font-size: 1.0em;
     text-align: left;
     overflow-wrap: break-word;
-    height: 300px;
+    overflow:auto;
 }
 
 
@@ -63,11 +63,6 @@ section#selection-box {
     text-align: center;
     outline: 0px solid rgb(218, 165, 32);
 }
-/*
-.selections:hover{
-    border: 1px solid black;
-}
-*/
 
 h2 {
     text-align: center;
@@ -101,5 +96,3 @@ h2 {
     margin: auto;
     margin-bottom: 10%;
 }
-
-
