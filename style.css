@@ -58,6 +58,7 @@ section#selection-box {
 
 h2 {
     text-align: center;
+    padding-top: 15px;
 }
 .thumbnails{
     width: 95%;
@@ -81,5 +82,6 @@ h2 {
     font-size: 1.25em;
     display: flex;
     margin: auto;
+    margin-bottom: 0%;
 }
 

@@ -18,85 +18,108 @@
       <p class="paragraph"> Modern civilizations grew out of these prehistoric settlements. We define a civilization as a complex society with structure, organization, and a system of communication. We can consider other elements as part of our modern understanding of civilization, like agriculture, religion, economics, etc. Some settlements we will look at will give us a better understand of how modern civilizations came to be.</p>
 
     </section>
-    <br id="">
+      <br id="">
 
-    <section id="selection-box">
-    <h2>Check out these early civilizations!</h2>
+      <section id="selection-box">
+      <h2>Check out these early civilizations!</h2>
 
-    <div class="selections" id="sel0">
-      <img 
-      src="./images/Göbekli_Tepe_full.jpg"
-      alt="The Ruins at Göbekli Tepe"
-      class="thumbnails">
-      <button class="buttons" onclick="displayDescription('b0')" id="b0">Göbekli Tepe</button>
+      <div class="selections" id="sel0">
+        <img 
+        src="./images/Göbekli_Tepe_full.jpg"
+        alt="The Ruins at Göbekli Tepe"
+        class="thumbnails">
+        <button class="buttons" onclick="displayDescription('b0')" id="b0">Göbekli Tepe</button>
+        
+      </div>
+
+      <div class="selections" id="sel1">
+        <img 
+        src="./images/uruk-full.jpeg"
+        alt="The Ruins of Uruk"
+        class="thumbnails">
+        <button class="buttons" onclick="displayDescription('b1')" id="b1">Uruk</button>
+        
+      </div>
+
+      <div class="selections" id="sel2">
+        <img 
+        src="./images/Mehrgarh_ruins.jpg"
+        alt="The Ruins of Mehrgarh"
+        class="thumbnails">
+        <button class="buttons" onclick="displayDescription('b2')" id="b2">Mehrgarh</button>
+        
+      </div>
+
+      <div class="selections" id="sel3">
+        <img 
+        src="./images/Tell_es-sultan.jpg"
+        alt="The Ruins of Tell es-Sultan"
+        class="thumbnails">
+        <button class="buttons" onclick="displayDescription('b3')" id="b3"> Tell es-Sultan</button>
+        
+      </div>
+      
+      <div class="selections" id="sel4">
+        <img 
+        src="./images/Teotihuacan.jpg"
+        alt="Pyramid of Teotihuacan"
+        class="thumbnails">
+        <button class="buttons" onclick="displayDescription('b4')" id="b4">Teotihuacan</button>
+        
+        
+
+      </div>
+
+
+      
+      <!--
       <script>
-        const box = document.getElementById("sel0")
+        var box = document.getElementById("sel0")
         console.log(box);
         box.addEventListener('mouseenter', function() { box.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered 0");});
         box.addEventListener('mouseleave', function() { box.style.outline = "0px transparent rgb(0,0,0)"; console.log("unhovered 1")});
       </script>
-    </div>
-
-    <div class="selections" id="sel1">
-      <img 
-      src="./images/uruk-full.jpeg"
-      alt="The Ruins of Uruk"
-      class="thumbnails">
-      <button class="buttons" onclick="displayDescription('b1')" id="b1">Uruk</button>
       <script>
-        const box0 = document.getElementById("sel1")
+        var box0 = document.getElementById("sel1")
         console.log(box0);
         box0.addEventListener('mouseenter', function() { box0.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
         box0.addEventListener('mouseleave', function() { box0.style.outline = "0px transparent rgba(0,0,0,0)"});
       </script>
-    </div>
-
-    <div class="selections" id="sel2">
-      <img 
-      src="./images/Mehrgarh_ruins.jpg"
-      alt="The Ruins of Mehrgarh"
-      class="thumbnails">
-      <button class="buttons" onclick="displayDescription('b2')" id="b2">Mehrgarh</button>
       <script>
-        const box1 = document.getElementById("sel2")
+        var box1 = document.getElementById("sel2")
         console.log(box1);
         box1.addEventListener('mouseenter', function() { box1.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
         box1.addEventListener('mouseleave', function() { box1.style.outline = "0px transparent rgba(0,0,0,0)"});
       </script>
-    </div>
-
-    <div class="selections" id="sel3">
-      <img 
-      src="./images/Tell_es-sultan.jpg"
-      alt="The Ruins of Tell es-Sultan"
-      class="thumbnails">
-      <button class="buttons" onclick="displayDescription('b3')" id="b3"> Tell es-Sultan</button>
       <script>
-        const box2 = document.getElementById("sel3")
+        var box2 = document.getElementById("sel3")
         console.log(box2);
         box2.addEventListener('mouseenter', function() { box2.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
         box2.addEventListener('mouseleave', function() { box2.style.outline = "0px transparent rgba(0,0,0,0)"});
       </script>
-    </div>
-    
-    <div class="selections" id="sel4">
-      <img 
-      src="./images/Teotihuacan.jpg"
-      alt="Pyramid of Teotihuacan"
-      class="thumbnails">
-      <button class="buttons" onclick="displayDescription('b4')" id="b4">Teotihuacan</button>
-      
       <script>
-        const box3 = document.getElementById("sel4")
+        var box3 = document.getElementById("sel4")
         console.log(box3);
         box3.addEventListener('mouseenter', function() { box3.style.outline = "4px inset rgb(218, 165, 32)"; console.log("hovered");});
         box3.addEventListener('mouseleave', function() { box3.style.outline = "0px transparent rgba(0,0,0,0)"});
       </script>
+    -->
 
-    </div>
+    <script>
+      var box0 = document.getElementById("sel0");
+      var box1 = document.getElementById("sel1");
+      var box2 = document.getElementById("sel2");
+      var box3 = document.getElementById("sel3");
+      var box4 = document.getElementById("sel4");
+      box0.addEventListener('mouseenter', function() {displayDescription("b0")});
+      box1.addEventListener('mouseenter', function() {displayDescription("b1")});
+      box2.addEventListener('mouseenter', function() {displayDescription("b2")});
+      box3.addEventListener('mouseenter', function() {displayDescription("b3")});
+      box4.addEventListener('mouseenter', function() {displayDescription("b4")});
 
+    </script>
     </section>
-
+    
     <button id="home-button" onclick="displayDescription('home')" >Home</button>
 
   </body>

@@ -4,6 +4,8 @@ for (var i = 0; i < buttons.length; ++i){
     buttons[i].onclick = displayDescription(buttons[i]);
 }
 
+
+
 function displayDescription(id) {
     var descriptionBox = document.getElementById('description');
     if(id === "b0"){
@@ -28,10 +30,20 @@ function displayDescription(id) {
         ;
     }
     else if(id === "b3"){
-        descriptionBox.innerHTML = '3';
+        descriptionBox.innerHTML = `<p>Generative AI is experimental. Info quality may vary.</p>
+        <p>Tell es-Sultan is an archaeological site in the West Bank, about 10 km north of the Dead Sea and 2 km north of modern-day Jericho. The site is also known as Tel Jericho or the Mound of Jericho. It was inhabited from the 10th millennium BCE and has been called "the oldest town in the world". </p>
+        <p>Tell es-Sultan was one of the largest and most flourished Canaanite city-states in Palestine. During the Bronze ages, it became a distinguished fortified urban center. The site is notable for its role in the history of Levantine archaeology. </p>
+        <p>The site was excavated between 1907–1909 and in 1911 by Ernst Sellin and Carl Watzinger. They found the remains of two walls which they initially suggested supported the biblical account of the Battle of Jericho. </p>
+        <p>Tell es-Sultan is also known as the "Sultan's Hill". </p>`;
     }
     else if(id === "b4"){
-        descriptionBox.innerHTML = '4';
+        descriptionBox.innerHTML = `<p>Teotihuacan is an ancient Mesoamerican city located in a valley in Central Mexico. </p>
+        <p> The city was settled as early as 400 B.C. and became the most powerful and influential city in the region by 400 A.D.. </p>
+        <p> It was the largest city in the Western Hemisphere before the 1400s. </p>
+        <p>Teotihuacan is famous for its pyramids and residential compounds. </p>
+        <p> The Pyramid of the Sun is the largest structure in Teotihuacan and the second largest in Mesoamerica. It is also the third largest pyramid in the world. The original purpose of the Pyramid of the Sun is unknown, though archaeologists believe it originally had an altar on top of the pyramid. </p>
+        <p>Teotihuacan was a multi-ethnic city with distinct quarters occupied by Otomi, Totonac, Zapotec, Mixtec, Maya, and Nahua peoples. </p>
+        <p>Teotihuacan was designated a UNESCO World Heritage Site in 1987. </p>`;
     }
     else if(id === "home"){
         descriptionBox.innerHTML = `<p class="paragraph"> Human history on our planet started millions of years ago when the first apes stood on their hind legs and became bipedal. Scientists believe that humans split from their ancestors almost ten million years ago. However, modern humans, known as <i>Homo Sapiens</i>, are said to have only emerged two hundred thousand years ago.</p>

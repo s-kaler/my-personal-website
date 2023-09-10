@@ -25,3 +25,10 @@ Mehrgarh
 <p>Mehrgarh was influenced by the Neolithic culture of the Near East. Similarities include domesticated wheat varieties, early farming, pottery, and other archaeological artifacts. 
 The Rind tribe bulldozed the Mehrgarh site during a feud with the Raisani tribe. The site was under Raisani control, but the Rind tribe also had claims over it. </p>
 
+Tell es Sultan
+
+<p>Generative AI is experimental. Info quality may vary.</p>
+<p>Tell es-Sultan is an archaeological site in the West Bank, about 10 km north of the Dead Sea and 2 km north of modern-day Jericho. The site is also known as Tel Jericho or the Mound of Jericho. It was inhabited from the 10th millennium BCE and has been called "the oldest town in the world". </p>
+<p>Tell es-Sultan was one of the largest and most flourished Canaanite city-states in Palestine. During the Bronze ages, it became a distinguished fortified urban center. The site is notable for its role in the history of Levantine archaeology. </p>
+<p>The site was excavated between 1907–1909 and in 1911 by Ernst Sellin and Carl Watzinger. They found the remains of two walls which they initially suggested supported the biblical account of the Battle of Jericho. </p>
+<p>Tell es-Sultan is also known as the "Sultan's Hill". </p>
